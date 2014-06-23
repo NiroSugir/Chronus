@@ -2,10 +2,8 @@
  * Chronus
  * Copyright(c) 2014 Niroshan Sugirtharatnam (GeekMode). All Rights Reserved.
  * MIT Licensed
- *
- *
- * Main API
  */
+"use strict";
 
 var should = require('should'),
     chronus = require('../../lib/chronus.js');
