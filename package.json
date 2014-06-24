@@ -1,6 +1,6 @@
 {
   "name": "chronus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Niroshan Sugirtharatnam <niro.junk@gmail.com>",
   "homepage": "https://github.com/GeekMode/Chronus",
   "description": "Job Schedule that is lightweight and scalable to distribute across multiple servers.",
