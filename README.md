@@ -18,7 +18,7 @@ Usage
 > Chronus can run in 3 modes: **Live Mode**,  **Server Mode**  &  **Worker Mode** . In Live Mode, the queues and the workers that process the queues run in the same Node.js application instance. In Server Mode, you create the hub that stores all the jobs. The Workers then connect to this hub to retrieve and process the jobs in queue. These workers, as you've guessed, are running in Worker Mode.
 
 
-1. **Live Mode**
+1. **Live Mode** 
 > Single Server + Worker App. All the jobs are created and run on the same Node.js application.
 ```sh
 //Server: 
