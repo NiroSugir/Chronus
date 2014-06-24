@@ -1,0 +1,8 @@
+job:
+    name
+    queue name:             Server Name
+    job type:               cron job, node js function execution, shell execution
+    exectution priority:    [beginning of queue|end of queue|when idle]
+    always save:            save to db regardless of default setting
+    pausable:               when jobs are paused, if this job should still execute on schedule
+                                when stopped, it will still not run
