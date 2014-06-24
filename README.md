@@ -19,7 +19,7 @@ Usage
 
 
 **Live Mode** 
-  > Single Server + Worker App. All the jobs are created and run on the same Node.js application.
+  > Both, the Jobs Server and the Worker, run in the same Node.js instance. This is the recommended setup for small to large size applications.
 ```sh
 //Server: 
 var chronusServer = new chronus.createServer();
@@ -28,9 +28,9 @@ var chronusWorker = new chronus.createWorker();
 ```
 
 **Server Mode**
-  > In this mode, you can run one Message Server that holds all 
-  the data. The Workers then connect to this Server and 
-  run the jobs. The jobs can be either held in memory or saved to a database (such as Redis)
+  > In this mode, you can run one Message Server that holds all the data. The Workers then connect to this Server and run the jobs. 
+  > This is the recommended setup for enterprise level applications. Upgrading from Live Mode requires next to no changes
+  > in your code. 
 ```sh
 //Server acting as the Hub instance: 
 var chronusServer = new chronus.createServer();
