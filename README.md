@@ -19,13 +19,10 @@ Usage
 ------------
 1. Live Mode
 2. Server & Workers
-  a) Server Mode
-
-    `var chronusServer = new chronus.createServer()`;
-    
-  b) Worker Mode
-  
-    `var chronusWorder = new chronus.createWorker()`;
+>Server Mode
+>`var chronusServer = new chronus.createServer()`;
+>Worker Mode
+>`var chronusWorder = new chronus.createWorker()`;
     
 3. Worker + Database Mode
 
