@@ -1,4 +1,4 @@
-Chronus - The God of Time
+Chronus
 ============
 
 Synopsis
