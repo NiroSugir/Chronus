@@ -1,26 +1,45 @@
 {
-    "name": "Chronus",
-    "version": "0.0.1",
-    "author": "Niroshan Sugirtharatnam <geekmode@gmail.com>",
-    "description": "Job Schedule that is lightweight and scalable to distribute across multiple servers.",
-    "keywords": [
-        "chronus",
-        "job",
-        "queue",
-        "message queue",
-        "schedule",
-        "cron",
-        "cronjob",
-        "redis",
-        "mongodb"
-    ],
-    "devDependencies": {
-        "mocha": "^1.20.1",
-        "should": "^4.0.4"
-    },
-    "engines": {
-        "node": "v0.10.x"
-    },
-    "license": "MIT",
-    "private": true
+  "name": "chronus",
+  "version": "0.0.1",
+  "author": "Niroshan Sugirtharatnam <geekmode@gmail.com>",
+  "homepage": "https://github.com/GeekMode/Chronus",
+  "description": "Job Schedule that is lightweight and scalable to distribute across multiple servers.",
+  "keywords": [
+    "chronus",
+    "job queue",
+    "queue",
+    "message queue",
+    "schedule",
+    "cron",
+    "cronjob",
+    "timeline",
+    "redis",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+      "url": "https://github.com/GeekMode/Chronus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GeekMode/Chronus/issues"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "engines": {
+    "node": "v0.10.x"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "mocha --watch --recursive"
+  },
+  "license": "MIT",
+  "private": false
 }
