@@ -3,13 +3,11 @@ Chronus
 
 Synopsis
 ---------
-> Chronus is a lightweight yet fully featured Message/Jobs Server for Node.js applications. It accepts both scheduled jobs > (akin to crons) and queued jobs meant for immediate execution. The server then has its "workers" proceeds to run them in > the proper order.
+> Chronus is a lightweight yet fully featured Message/Jobs Server for Node.js applications. It accepts both scheduled jobs (akin to crons) and queued jobs meant for immediate execution. The server then has its "workers" proceeds to run them in the proper order.
 
-> Chronus is built with scalability and accuracy in mind. It's asyncronous nature does not impede the ACID integrity of the jobs. 
+> Chronus is built with scalability and accuracy in mind. It's asyncronous nature does not impede the ACID integrity of the jobs. Unlike other queuing software on the market, Chronus can be run in different modes to customize the solution to your needs. Even with all these functionalities, it is easy to use and leaves a small footprint.
 
-> Unlike other queuing software on the market, Chronus can be run in 2 modes each with their own advantages.
-
-> Even with all these functionalities, it is easy to use and leaves a small footprint. 
+> Storing the queues is extremely simple as Chronos comes with built in database support for Redis, MySQL & plain old files. MongoDB support is planned to give access to as many databases as possible.
 
 Installation
 ------------
