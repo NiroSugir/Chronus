@@ -26,15 +26,17 @@ var chronusServer = new chronus.createServer();
 //Worker:
 var chronusWorker = new chronus.createWorker();
 ```
+
 **Server Mode**
   > In this mode, you can run one Message Server that holds all 
-  > the data. The Workers then connect to this Server and 
-  > run the jobs. The jobs can be either held in memory or saved to a database (such as Redis)
+  the data. The Workers then connect to this Server and 
+  run the jobs. The jobs can be either held in memory or saved to a database (such as Redis)
 ```sh
 //Server acting as the Hub instance: 
 var chronusServer = new chronus.createServer();
 ```
 **Worker Mode**
+  > Worker Mode
 ```sh
 //Worker(s) on other Node.js instances:
 var chronusWorker = new chronus.createWorker();
