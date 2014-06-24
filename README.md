@@ -19,11 +19,11 @@ Usage
 ------------
 1. Live Mode
 2. Server & Workers
-  a. Server Mode
+  a) Server Mode
 
     `var chronusServer = new chronus.createServer()`;
     
-  b. Worker Mode
+  b) Worker Mode
   
     `var chronusWorder = new chronus.createWorker()`;
     
