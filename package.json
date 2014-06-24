@@ -38,7 +38,7 @@
     "should": "^4.0.4"
   },
   "scripts": {
-    "test": "mocha --watch --recursive"
+    "test": "mocha --recursive"
   },
   "license": "MIT",
   "private": false
