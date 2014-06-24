@@ -9,6 +9,10 @@ Usage
 ==========
 `npm install chronus`
 
+Version
+=======
+*Currently under construction.*
+
 License
 ==========
 MIT.
