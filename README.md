@@ -17,10 +17,8 @@ Installation
 
 Usage
 ------------
-1 ##### Live Mode
-
-2 ##### Server & Workers
-
+1. ##### Live Mode
+2. ##### Server & Workers
 > In this mode, you can run one Message Server that holds all 
 > the data. The Workers then connect to this Server and 
 > run the 
@@ -30,11 +28,7 @@ var chronusServer = new chronus.createServer();
 //Worker on PC (:
 var chronusWorker = new chronus.createWorker();
 ```
-
-> teag adf afd  dfa df dfa df adf adf adf adfad dfa 
-> yeah f adf adf daf d
-
-3 ##### Worker + Database Mode
+3. ##### Worker + Database Mode
 
 
 Version
