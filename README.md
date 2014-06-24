@@ -35,8 +35,9 @@ var chronusWorker = new chronus.createWorker();
 //Server acting as the Hub instance: 
 var chronusServer = new chronus.createServer();
 ```
+
 **Worker Mode**
-  > Worker Mode
+  > The Workers connect to either a Chronus Server (Hub) or directly to a database to retrieve and process the job.
 ```sh
 //Worker(s) on other Node.js instances:
 var chronusWorker = new chronus.createWorker();
