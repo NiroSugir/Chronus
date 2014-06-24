@@ -1,4 +1,4 @@
-Chronus-node
+Chronus
 ============
 
 Synopsis
