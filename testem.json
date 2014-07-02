@@ -2,6 +2,7 @@
     "framework": "mocha",
     "src_files": [
         "node_modules/chai/chai.js",
+        "chronus.js",
         "lib/**/*.js",
         "test/setup.js",
         "test/**/*.test.js"

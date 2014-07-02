@@ -31,7 +31,7 @@
   "engines": {
     "node": "v0.10.x"
   },
-  "main": "index.js",
+  "main": "chronus.js",
   "directories": {
     "test": "test"
   },
