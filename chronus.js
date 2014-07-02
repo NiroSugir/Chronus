@@ -19,10 +19,17 @@ var Chronus = {
     createWorker: function() {
         return new Object();
     },
-    createEvent: function() {
-        return new Object();
-    }
+    /*
+    createEvent: function(eventData) {
 
+        return {
+            callbackName: eventData.callbackName,
+            callbackData: eventData.callbackData,
+            callbackTime: eventData.callbackTime
+        };
+    }
+    */
+    createEvent: require('./lib/event.js').createEvent
 }
 
 module.exports = Chronus;
